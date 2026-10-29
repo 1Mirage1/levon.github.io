@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f3ed">
+  <meta name="description" content="Здесь творят красоту — персональная практика массажа мастера Левона. Массаж, прессотерапия, Liposonix и подарочные сертификаты.">
+  <title>Здесь творят красоту — массаж и забота о себе с Левоном</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header class="site-header" id="top">
+    <div class="header-inner shell">
+      <a class="brand" href="#top" aria-label="Здесь творят красоту — на главную">
+        <span class="brand-word">здесь творят<br><span class="brand-second">красоту<span class="brand-dot">.</span></span></span>
+        <span class="brand-sub">МАССАЖ · ЗАБОТА О СЕБЕ</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#prices">Цены</a>
+        <a href="#apparatus">Аппаратные процедуры</a>
+        <a href="#about">О Левоне</a>
+        <a href="#gift">Сертификат</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-dark btn-small" type="button" data-book>Записаться <span aria-hidden="true">↗</span></button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Мобильная навигация" hidden>
+      <a href="#services">Услуги</a><a href="#prices">Цены</a><a href="#apparatus">Аппаратные процедуры</a><a href="#programs">Комплексы</a><a href="#about">О Левоне</a><a href="#gift">Подарочный сертификат</a><a href="#contacts">Контакты</a>
+      <button class="btn btn-dark" type="button" data-book>Записаться на сеанс ↗</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="heroHeading">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> ПРОСТРАНСТВО ЗАБОТЫ О СЕБЕ</div>
+        <h1 id="heroHeading">Массаж —<br><em>это про любовь</em><br>к себе.</h1>
+        <p class="hero-lead">Здесь творят красоту через заботу, внимание и прикосновение. Левон поможет выбрать время для отдыха, расслабления и ощущения гармонии с собой.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#services">Выбрать массаж <span aria-hidden="true">↗</span></a>
+          <button class="btn btn-link" type="button" data-video-open>Смотреть видео со звуком <span aria-hidden="true">↗</span></button>
+        </div>
+        <div class="hero-footnote"><span class="fine-diamond" aria-hidden="true">✦</span> Индивидуальный подход к каждому сеансу</div>
+      </div>
+      <div class="hero-media" id="heroVideoSlot">
+        <div class="hero-video-background" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="orbit orbit-three"></span><span class="orbit-core"></span></div>
+        <video class="hero-video-file" id="heroVideoFile" autoplay muted loop playsinline preload="metadata" poster="assets/welcome-poster.jpg" aria-label="Массаж — это про любовь к себе. Приветственное видео" hidden></video>
+        <div class="hero-video-top"><span class="video-top-icon" aria-hidden="true">✳</span><span>ЛЕВОН / МАСТЕР МАССАЖА</span></div>
+        <button class="video-play" type="button" data-video-open aria-label="Открыть приветственное видео"><span class="play-triangle" aria-hidden="true"></span></button>
+        <div class="hero-media-caption"><div><span class="micro-label">ВАШЕ ПЕРВОЕ ЗНАКОМСТВО</span><strong>Массаж — это<br>про любовь к себе</strong></div><span class="caption-arrow" aria-hidden="true">↗</span></div>
+      </div>
+      <div class="hero-index" aria-hidden="true">ЗДЕСЬ ТВОРЯТ КРАСОТУ / ЛЕВОН</div>
+    </section>
+
+    <div class="statement-strip"><div class="shell statement-inner"><span>Тишина</span><i aria-hidden="true">✳</i><span>Внимание</span><i aria-hidden="true">✳</i><span>Баланс</span><i aria-hidden="true">✳</i><span>Забота</span></div></div>
+
+    <section class="intro shell section-space" aria-labelledby="introHeading">
+      <div class="section-kicker"><span class="section-num">01</span> ФИЛОСОФИЯ ПРАКТИКИ</div>
+      <div class="intro-layout"><h2 class="serif-title" id="introHeading">Место, где можно <em>замедлиться.</em></h2><div class="intro-right"><p>Каждый человек приходит со своим запросом. Поэтому в основе практики — не шаблонный сценарий, а внимание к вашему состоянию, привычкам и комфорту.</p><div class="intro-features"><span>01 / Бережный подход</span><span>02 / Комфортный ритм</span><span>03 / Внимание к деталям</span></div></div></div>
+    </section>
+
+    <section class="services-section section-space" id="services" aria-labelledby="servicesHeading">
+      <div class="shell">
+        <div class="section-header"><div><div class="section-kicker"><span class="section-num">02</span> МЕНЮ ПРОЦЕДУР</div><h2 class="serif-title" id="servicesHeading">Найдите <em>свою</em> практику.</h2></div><div class="section-header-end"><p>Выберите направление по настроению и запросу. Продолжительность ориентировочная, детали согласуются с мастером.</p><a class="sample-note" href="#prices"><span class="sample-dot"></span> Смотреть стоимость услуг и курсов ↗</a></div></div>
+        <div class="service-filters" role="group" aria-label="Фильтр по виду массажа"><button class="filter is-active" type="button" data-filter="all" aria-pressed="true">Все услуги</button><button class="filter" type="button" data-filter="restoration" aria-pressed="false">Восстановление</button><button class="filter" type="button" data-filter="relaxation" aria-pressed="false">Расслабление</button><button class="filter" type="button" data-filter="targeted" aria-pressed="false">Локальные техники</button></div>
+        <div class="services-grid" id="servicesGrid" aria-live="polite"></div>
+
+        <div class="pricing-panel" id="prices" aria-labelledby="pricesHeading">
+          <div class="pricing-header">
+            <div><span class="micro-label">ПРОЗРАЧНАЯ СТОИМОСТЬ</span><h3 id="pricesHeading">Процедуры <em>и курсы.</em></h3></div>
+            <p>Можно начать с одного посещения или подобрать курс. Левон поможет обсудить подходящий формат.</p>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-tile price-tile-featured"><span class="price-tile-kind">РАЗОВОЕ ПОСЕЩЕНИЕ</span><h4>Разовое посещение</h4><p>Конкретную процедуру уточните при записи.</p><div class="price-tile-foot"><strong>5 000 ₽</strong><button type="button" data-book data-choice="price:single" aria-label="Выбрать разовое посещение за 5 000 рублей">Выбрать ↗</button></div></article>
+            <article class="price-tile price-tile-featured"><span class="price-tile-kind">60 МИНУТ</span><h4>Массаж всего тела</h4><p>Полноценный час, посвящённый отдыху и вниманию к себе.</p><div class="price-tile-foot"><strong>7 000 ₽</strong><button type="button" data-book data-choice="service:full" aria-label="Выбрать часовой массаж всего тела за 7 000 рублей">Выбрать ↗</button></div></article>
+            <article class="price-tile"><span class="price-tile-kind">СТОИМОСТЬ КУРСА</span><h4>Спина</h4><p>Курс процедур для области спины.</p><div class="price-tile-foot"><strong>23 000 ₽</strong><button type="button" data-book data-choice="program:back-course" aria-label="Выбрать курс массажа спины за 23 000 рублей">Выбрать ↗</button></div></article>
+            <article class="price-tile"><span class="price-tile-kind">СТОИМОСТЬ КУРСА</span><h4>Коррекция фигуры</h4><p>Программа коррекции фигуры.</p><div class="price-tile-foot"><strong>30 000 ₽</strong><button type="button" data-book data-choice="program:body-course" aria-label="Выбрать курс коррекции фигуры за 30 000 рублей">Выбрать ↗</button></div></article>
+            <article class="price-tile"><span class="price-tile-kind">СТОИМОСТЬ КУРСА</span><h4>Коррекция фигуры + Liposonix</h4><p>Комплексная программа с аппаратной методикой.</p><div class="price-tile-foot"><strong>40 000 ₽</strong><button type="button" data-book data-choice="program:body-lipo-course" aria-label="Выбрать курс коррекции фигуры с Liposonix за 40 000 рублей">Выбрать ↗</button></div></article>
+          </div>
+          <p class="pricing-footnote">Уточните у мастера, что входит в разовое посещение, количество сеансов в каждом курсе и противопоказания. Стоимость отдельных зон Liposonix приведена ниже.</p>
+        </div>
+        <div class="service-disclaimer"><span aria-hidden="true">✳</span><p>Описание эффектов носит ознакомительный характер. Массаж не заменяет диагностику и лечение. При хронических заболеваниях, острых симптомах и сомнениях о противопоказаниях проконсультируйтесь с врачом.</p></div>
+      </div>
+    </section>
+
+
+    <section class="apparatus-section section-space" id="apparatus" aria-labelledby="apparatusHeading">
+      <div class="shell">
+        <div class="section-header"><div><div class="section-kicker"><span class="section-num">03</span> АППАРАТНЫЕ МЕТОДИКИ</div><h2 class="serif-title" id="apparatusHeading">Технологии <em>заботы.</em></h2></div><div class="section-header-end"><p>Два направления для тех, кто хочет дополнить привычные ритуалы ухода за телом.</p></div></div>
+        <div class="apparatus-grid">
+          <article class="apparatus-card press-card">
+            <div class="apparatus-photo"><img src="assets/pressotherapy-equipment.jpg" alt="Аппаратные манжеты для прессотерапии" loading="lazy"><span>01 / ПРЕССОТЕРАПИЯ</span></div>
+            <div class="apparatus-content"><span class="micro-label">РИТМИЧНАЯ КОМПРЕССИЯ</span><h3>Прессотерапия</h3><p>Мягкая аппаратная процедура: специальные манжеты последовательно наполняются воздухом, создавая волнообразное давление. Помогает ощутить лёгкость в ногах и расслабиться; иногда применяется для уменьшения отёчности по показаниям.</p><div class="apparatus-chips"><span>Комфортный ритм</span><span>Ощущение лёгкости</span></div><div class="apparatus-price-row"><strong>Стоимость — по запросу</strong><button class="btn btn-dark btn-small" type="button" data-book data-choice="service:pressotherapy">Уточнить запись ↗</button></div></div>
+          </article>
+          <article class="apparatus-card lipo-card">
+            <div class="apparatus-content"><span class="micro-label">HIFU / УЛЬТРАЗВУК</span><h3>Liposonix</h3><p>Неинвазивная аппаратная коррекция локальных жировых отложений с помощью сфокусированного ультразвука HIFU. Изменения контуров тела развиваются постепенно; результат оценивают через 8–12 недель, он индивидуален.</p><span class="lipo-duration">Продолжительность сеанса: ориентировочно 2–2,5 часа</span><h4>Стоимость по зонам</h4><div class="lipo-prices">
+              <div><span>Живот</span><strong>7 000 ₽</strong></div><div><span>Бока</span><strong>5 000 ₽</strong></div><div><span>Спина</span><strong>7 000 ₽</strong></div><div><span>Живот + бока</span><strong>10 000 ₽</strong></div><div><span>Бёдра — одна поверхность, обе ноги</span><strong>7 000 ₽</strong></div><div><span>Руки</span><strong>5 000 ₽</strong></div>
+            </div><p class="lipo-footnote">Для бёдер: передняя, задняя, внутренняя поверхность или зона галифе — одна зона на обеих ногах.</p><button class="btn btn-cream" type="button" data-book data-choice="service:liposonix">Обсудить Liposonix <span aria-hidden="true">↗</span></button></div>
+          </article>
+        </div>
+        <p class="apparatus-disclaimer">Аппаратные методики имеют противопоказания. Прессотерапия не предназначена для «выведения токсинов» или лечения без назначения врача. Для Liposonix необходима предварительная оценка показаний и противопоказаний квалифицированным специалистом; результат не гарантирован.</p>
+      </div>
+    </section>
+
+    <section class="programs-section section-space" id="programs" aria-labelledby="programsHeading">
+      <div class="shell">
+        <div class="section-header section-header-light"><div><div class="section-kicker"><span class="section-num">04</span> КУРСОВЫЕ ПРОГРАММЫ</div><h2 class="serif-title" id="programsHeading">Курс <em>под ваш запрос.</em></h2></div><div class="section-header-end"><p>Три варианта курсов с фиксированной стоимостью. Точное содержание, количество сеансов и противопоказания обсудите с мастером.</p></div></div>
+        <div class="program-grid" id="programGrid"></div>
+        <div class="program-builder">
+          <div><span class="micro-label">ПЕРСОНАЛЬНОЕ СОЧЕТАНИЕ</span><h3>Создайте свой<br><em>комплекс.</em></h3><p>Отметьте интересующие вас отдельные процедуры — подготовим запрос для Левона. Стоимость сочетания подтверждается при записи.</p></div>
+          <div class="builder-right"><div class="builder-options" id="builderOptions"></div><div class="builder-bottom"><div><span>Стоимость сочетания</span><strong id="builderTotal">0 ₽</strong><small id="builderCount">Выберите процедуры</small></div><button class="btn btn-cream" type="button" id="builderBook" disabled>Запросить запись <span aria-hidden="true">↗</span></button></div></div>
+        </div>
+        <p class="program-caption">Стоимость курсов указана выше. Количество посещений, состав курса и совместимость процедур подтверждаются перед записью.</p>
+      </div>
+    </section>
+
+    <section class="about-section shell section-space" id="about" aria-labelledby="aboutHeading">
+      <div class="section-kicker"><span class="section-num">05</span> ЧЕЛОВЕК ЗА ПРАКТИКОЙ</div>
+      <div class="about-grid">
+        <div class="portrait-frame" aria-label="Фотография массажиста Левона"><img class="master-portrait-img" src="assets/levon-portrait.jpg" alt="Левон — мастер массажа в кабинете" loading="lazy" decoding="async"><div class="portrait-art" aria-hidden="true"><span class="portrait-ring"></span><span class="portrait-ring-two"></span></div><div class="portrait-placeholder"><span class="portrait-symbol" aria-hidden="true">✳</span><span>МЕСТО ДЛЯ ФОТОГРАФИИ</span><strong>Профессиональный<br>портрет специалиста</strong></div><div class="portrait-bottom">ВАШ МАСТЕР · ЛЕВОН <span>↗</span></div></div>
+        <div class="about-copy"><span class="small-accent">ЗНАКОМСТВО</span><h2 class="serif-title" id="aboutHeading">Доверие начинается <em>со знакомства.</em></h2><div class="specialist-name">Имя Фамилия <span>— массажист</span></div><p class="about-paragraph">Меня зовут Левон. Для меня массаж — это не только работа с телом, но и возможность подарить человеку момент спокойствия, внимания и заботы о себе.</p><p class="about-paragraph">Каждая встреча начинается с разговора: мы обсуждаем пожелания, комфортную интенсивность и выбираем подходящий формат сеанса. Здесь можно замедлиться и уделить время себе.</p>
+          <div class="career-list"><div><span class="career-num">01</span><div><strong>Индивидуальный подход</strong><p>Выбор техники и интенсивности с учётом ваших ощущений</p></div></div><div><span class="career-num">02</span><div><strong>Внимание к комфорту</strong><p>Спокойная атмосфера и возможность обсудить пожелания</p></div></div><div><span class="career-num">03</span><div><strong>Бережная забота</strong><p>Массаж, аппаратные методики и время для себя</p></div></div></div>
+          <a class="text-arrow" href="#services">Выбрать подходящую процедуру <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="gift-section section-space" id="gift" aria-labelledby="giftHeading">
+      <div class="shell gift-grid">
+        <div class="gift-copy"><div class="section-kicker"><span class="section-num">06</span> ПОДАРОЧНЫЙ СЕРТИФИКАТ</div><h2 class="serif-title" id="giftHeading">Подарите <em>время для себя.</em></h2><p>Тёплый знак внимания, который точно почувствуют. Именной подарочный сертификат на массаж можно оформить на любую сумму — получатель сам выберет приятный ритуал заботы о себе.</p><button class="btn btn-dark" type="button" data-book data-choice="gift">Узнать о сертификате <span aria-hidden="true">↗</span></button></div>
+        <div class="gift-visual" aria-label="Образец подарочного сертификата на массаж"><div class="gift-orbit gift-orbit-a"></div><div class="gift-orbit gift-orbit-b"></div><div class="gift-ticket"><span>ЗДЕСЬ ТВОРЯТ КРАСОТУ</span><i>✦</i><strong>Подарочный<br><em>сертификат</em></strong><span>НА МАССАЖ · С ЛЮБОВЬЮ</span><small>Для особенного человека</small></div><span class="gift-glint">✳</span></div>
+      </div>
+    </section>
+
+    <section class="flow-section shell section-space" aria-labelledby="flowHeading"><div class="section-kicker"><span class="section-num">07</span> КАК ВСЁ ПРОИСХОДИТ</div><h2 class="serif-title" id="flowHeading">Всё просто. <em>И с заботой.</em></h2><div class="steps-grid"><div class="step"><span>01 /</span><div class="step-symbol" aria-hidden="true">↗</div><h3>Выберите</h3><p>Изучите услуги и комплексы. В карточках указаны особенности процедур, а в прайсе — подтверждённые цены и курсовые предложения.</p></div><div class="step"><span>02 /</span><div class="step-symbol" aria-hidden="true">✳</div><h3>Расскажите о запросе</h3><p>Оставьте пожелания по процедуре, времени и ощущениям, с которыми хотите поработать.</p></div><div class="step"><span>03 /</span><div class="step-symbol" aria-hidden="true">♡</div><h3>Приходите на сеанс</h3><p>После подтверждения записи специалист уточнит детали и расскажет о подготовке к визиту.</p></div></div></section>
+
+    <section class="faq-section section-space" aria-labelledby="faqHeading"><div class="shell faq-grid"><div><div class="section-kicker"><span class="section-num">08</span> ПОЛЕЗНО ЗНАТЬ</div><h2 class="serif-title" id="faqHeading">Частые <em>вопросы.</em></h2><p>То, что полезно знать перед первым визитом.</p></div><div class="faq-list"><details><summary>Как выбрать подходящий вид массажа?<span aria-hidden="true">+</span></summary><p>Откройте описание интересующей услуги: там указаны задачи и особенности процедуры. При записи опишите свой запрос, чтобы специалист помог обсудить подходящий вариант.</p></details><details><summary>Что сообщить перед первым посещением?<span aria-hidden="true">+</span></summary><p>Пожалуйста, заранее расскажите о травмах, заболеваниях, беременности, недавних операциях, приёме лекарств и неприятных ощущениях. Это поможет оценить, можно ли проводить процедуру и нужна ли консультация врача.</p></details><details><summary>Можно ли объединить несколько процедур?<span aria-hidden="true">+</span></summary><p>Да. В разделе «Комплексы» можно выбрать готовую программу или собрать собственный набор. Окончательную длительность и совместимость процедур специалист подтвердит отдельно.</p></details><details><summary>Есть ли противопоказания?<span aria-hidden="true">+</span></summary><p>Да, они зависят от состояния здоровья и техники. При температуре, острых воспалительных состояниях, подозрении на тромбоз и других тревожных симптомах сеанс следует отложить и обратиться к врачу.</p></details></div></div></section>
+
+    <section class="contact-section section-space" id="contacts" aria-labelledby="contactsHeading"><div class="shell"><div class="section-header"><div><div class="section-kicker"><span class="section-num">09</span> АДРЕСА И СВЯЗЬ</div><h2 class="serif-title" id="contactsHeading">Будем <em>на связи.</em></h2></div><div class="section-header-end"><p>Свяжитесь с Левоном, чтобы обсудить процедуру и удобное время. Контактные данные будут размещены здесь после уточнения.</p></div></div><div class="contact-grid"><div class="studio-photo"><img src="assets/levon-studio.jpg" alt="Левон в массажном кабинете" loading="lazy"><span>ПРОСТРАНСТВО ДЛЯ ОТДЫХА И ЗАБОТЫ</span></div><div class="contact-cards"><div class="contact-card"><span class="micro-label">01 / АДРЕСА ПРИЁМА</span><h3>Где проходит приём</h3><p>Адрес <span class="placeholder-text">Сообщим при подтверждении записи</span></p></div><div class="contact-card"><span class="micro-label">02 / СВЯЗЬ</span><h3>Напишите или позвоните</h3><p>Телефон <span class="placeholder-text" id="phoneDisplay">Номер будет добавлен</span></p><p>Мессенджеры <span class="placeholder-text" id="messengerDisplay">Ссылки будут добавлены</span></p><p>Почта <span class="placeholder-text" id="emailDisplay">Адрес будет добавлен</span></p></div><div class="contact-card contact-card-last"><span class="micro-label">03 / ВРЕМЯ ПРИЁМА</span><p id="hoursDisplay">По предварительной записи. Расписание будет добавлено.</p><button class="btn btn-dark" type="button" data-book>Оставить запрос <span aria-hidden="true">↗</span></button></div></div></div></div></section>
+
+    <section class="end-banner shell"><div><span class="micro-label">ВРЕМЯ ДЛЯ СЕБЯ</span><h2>Забота начинается<br><em>с одного решения.</em></h2></div><button class="btn btn-cream" type="button" data-book>Выбрать время <span aria-hidden="true">↗</span></button></section>
+  </main>
+
+  <footer class="site-footer"><div class="shell"><div class="footer-top"><div><a class="brand brand-footer" href="#top"><span class="brand-word">здесь творят<br><span class="brand-second">красоту<span class="brand-dot">.</span></span></span><span class="brand-sub">МАССАЖ · ЗАБОТА О СЕБЕ</span></a><p>Пространство внимания к телу<br>и бережной заботы о себе.</p></div><nav aria-label="Навигация внизу сайта"><a href="#services">Услуги</a><a href="#prices">Цены</a><a href="#apparatus">Аппаратные процедуры</a><a href="#programs">Комплексы</a><a href="#about">О Левоне</a><a href="#gift">Сертификат</a><a href="#contacts">Контакты</a></nav></div><div class="footer-bottom"><span>© <span id="year"></span> Здесь творят красоту. Все права защищены.</span><span>Указаны цены на разовое посещение, часовой массаж и курсы</span><a href="#top">Наверх ↑</a></div></div></footer>
+
+  <dialog class="site-dialog service-dialog" id="serviceDialog" aria-labelledby="serviceDialogTitle"><button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть">×</button><div class="dialog-service-head"><span class="micro-label" id="serviceDialogCategory">МАССАЖ</span><h2 id="serviceDialogTitle"></h2><div class="dialog-service-meta"><span id="serviceDialogDuration"></span><span id="serviceDialogPrice"></span></div></div><div class="dialog-service-body"><div><h3>О процедуре</h3><p id="serviceDialogDescription"></p></div><div><h3>Для каких запросов</h3><ul id="serviceDialogFor"></ul></div><div><h3>Ожидаемый эффект</h3><p id="serviceDialogEffect"></p></div><div><h3>Как проходит</h3><p id="serviceDialogProcess"></p></div></div><p class="dialog-caution">Описание носит ознакомительный характер, не заменяет консультацию врача. Перед процедурой необходимо уточнить противопоказания.</p><button class="btn btn-dark dialog-action" type="button" id="serviceDialogBook">Выбрать эту процедуру <span aria-hidden="true">↗</span></button></dialog>
+
+  <dialog class="site-dialog video-dialog" id="videoDialog" aria-labelledby="videoDialogTitle"><button class="dialog-close dialog-close-light" type="button" data-close-dialog aria-label="Закрыть">×</button><div id="videoDialogContent"><span class="micro-label">НАСТРОЕНИЕ НА ЗАБОТУ</span><div class="video-dialog-art" aria-hidden="true">✳</div><h2 id="videoDialogTitle">Массаж — это про любовь к себе</h2><p>Откройте видео со звуком и погрузитесь в атмосферу заботы о себе.</p></div></dialog>
+
+  <dialog class="site-dialog cert-dialog" id="certDialog" aria-labelledby="certDialogTitle"><button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть">×</button><div id="certDialogContent"></div></dialog>
+
+  <dialog class="site-dialog booking-dialog" id="bookingDialog" aria-labelledby="bookingDialogTitle"><button class="dialog-close" type="button" data-close-dialog aria-label="Закрыть">×</button><span class="micro-label">ВАШ ЗАПРОС НА СЕАНС</span><h2 id="bookingDialogTitle">Начнём <em>со знакомства.</em></h2><p class="booking-lead">Расскажите о своих пожеланиях. Сайт подготовит текст запроса для копирования; онлайн-отправка пока не подключена.</p><form id="bookingForm"><div class="form-row"><label>Как к вам обращаться <input id="bookingName" name="name" type="text" placeholder="Ваше имя" autocomplete="name" required maxlength="70"></label><label>Контакт для ответа <input id="bookingContact" name="contact" type="text" placeholder="Телефон или мессенджер" autocomplete="tel" required maxlength="120"></label></div><label>Услуга или комплекс <select id="bookingService" name="service"><option value="">Помогите с выбором</option></select></label><div class="form-row"><label>Желаемая дата <input id="bookingDate" name="date" type="date"></label><label>Удобное время <select id="bookingTime" name="time"><option value="">Любое время</option><option>Утро</option><option>День</option><option>Вечер</option></select></label></div><label>Ваши пожелания <textarea id="bookingComment" name="comment" rows="3" maxlength="600" placeholder="Например: комфортное время, зоны внимания, вопросы"></textarea></label><label class="check-privacy"><input type="checkbox" id="bookingConsent" required><span>Согласен(на) подготовить запрос с указанными данными. Текст останется в браузере до копирования; сайт его не отправляет.</span></label><button class="btn btn-dark booking-submit" type="submit">Сформировать и скопировать запрос <span aria-hidden="true">↗</span></button><div class="booking-output" id="bookingOutput" hidden><h3>Текст запроса готов</h3><p>Можно скопировать его повторно:</p><textarea readonly id="bookingGenerated" rows="7" aria-label="Подготовленный текст запроса"></textarea><button class="btn btn-outline" type="button" id="copyAgain">Скопировать ещё раз</button></div></form></dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
